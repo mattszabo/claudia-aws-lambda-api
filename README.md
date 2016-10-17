@@ -34,11 +34,12 @@
 - For the user, be sure to [configure the aws cli](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) if you haven't already
 
 ## Instructions
-- `git clone https://github.com/wekilledit/claudia-aws-lambda-api.git`
-- `cd claudia-aws-lambda-api`
-- `npm install`
-- `claudia create --region ap-southeast-2 --api-module server`
-
+```bash
+git clone https://github.com/wekilledit/claudia-aws-lambda-api.git
+cd claudia-aws-lambda-api
+npm install
+claudia create --region ap-southeast-2 --api-module server
+```
 The last command is a sample, you may wish to change the region depending on your needs.
 
 ## What will be created
