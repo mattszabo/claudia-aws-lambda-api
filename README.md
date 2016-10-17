@@ -43,9 +43,9 @@ claudia create --region ap-southeast-2 --api-module server
 The last command is a sample, you may wish to change the region depending on your needs.
 
 ## What will be created
-- IAM role labelled "<project name>-executor"
-- API Gateway labelled "<project name">
-- Lambda function labelled "<project name>"
+- IAM role labelled "\<project name\>-executor"
+- API Gateway labelled "\<project name"\>
+- Lambda function labelled "\<project name\>"
 
 ## Accessing the API
 After completing the instructions, in the command lien you will be presented with a connection string that looks similar to: `https://dobagqa1kc.execute-api.ap-southeast-2.amazonaws.com/latest/`
