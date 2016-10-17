@@ -1,7 +1,7 @@
 # CLAUDIA: AWS LAMBDA + API GATEWAY
 
 ## Prerequisite
-- [AWS command line tools](http://docs.aws.amazon.com/cli/latest/userguide/installing.html) (For the user, be sure to [configure the aws cli](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) if you haven't already)
+- [AWS command line tools](http://docs.aws.amazon.com/cli/latest/userguide/installing.html)
 - An IAM user with privileges for the actions shown in the following sample policy:
 
 ```json
@@ -31,6 +31,7 @@
   ]
 }
 ```
+- For the user, be sure to [configure the aws cli](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) if you haven't already
 
 ## Instructions
 - `git clone https://github.com/wekilledit/claudia-aws-lambda-api.git`
@@ -44,3 +45,8 @@ The last command is a sample, you may wish to change the region depending on you
 - IAM role labelled "<project name>-executor"
 - API Gateway labelled "<project name">
 - Lambda function labelled "<project name>"
+
+## Accessing the API
+After completing the instructions, in the command lien you will be presented with a connection string that looks similar to: `https://dobagqa1kc.execute-api.ap-southeast-2.amazonaws.com/latest/`
+
+Simply add the get request to the end of the url. E.g. `hello?name=Matt`
