@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "claudia-api-executor",
+    "name": "claudia-api",
+    "region": "ap-southeast-2"
+  },
+  "api": {
+    "id": "vocngqa1kc",
+    "module": "server"
+  }
+}
