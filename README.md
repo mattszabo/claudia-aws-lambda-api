@@ -38,9 +38,9 @@
 git clone https://github.com/wekilledit/claudia-aws-lambda-api.git
 cd claudia-aws-lambda-api
 npm install
-claudia create --region ap-southeast-2 --api-module server
+claudia create --api-module server
 ```
-The last command is a sample, you may wish to change the region depending on your needs.
+For last command, you may need to include the region as a parameter. E.g. `--region ap-southeast-2`
 
 ## What will be created
 - IAM role labelled "\<project name\>-executor"
